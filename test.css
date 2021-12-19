@@ -1,0 +1,12 @@
+.nav{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .image{
+  margin-left: 20rem;
+} */
+
+

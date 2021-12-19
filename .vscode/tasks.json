@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ build active file",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-g",
+				"-std=c++11",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/clang++"
+		}
+	]
+}
+
+// {
+// 	"version": "2.0.0",
+// 	"tasks": [
+// 		{
+// 			"type": "shell",
+// 			"label": "clang++ build active file",
+// 			"command": "/usr/bin/clang++",
+// 			"args": [
+// 				"-std=c++17",
+// 				"-stdlib=libc++",
+// 				"-g",
+// 				"${fileDirname}/${fileBasenameNoExtension}.cpp",
+// 				"-o",
+// 				"${fileDirname}/${fileBasenameNoExtension}"
+// 			],
+// 			"options": {
+// 				"cwd": "${workspaceFolder}"
+// 			},
+// 			"problemMatcher": [
+// 				"$gcc"
+// 			],
+// 			"group": {
+// 				"kind": "build",
+// 				"isDefault": true
+// 			},
+// 			}
+// 	]
+// }
